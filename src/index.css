@@ -1,2 +1,20 @@
 
 @import "tailwindcss";
+
+@theme{
+    --color-background: #0a0f1e; 
+    --color-card: #0e1628;
+
+    --color-secondary: #1a2236;
+    --color-border: #1e2840;
+
+    --color-muted-foreground: #6b7fa3;
+    --color-primary: #3b82f6;
+    --color-accent: #2dd4bf;
+}
+
+/* 
+active   → #34d399  (emerald-400)
+en_route → #60a5fa  (blue-400)
+idle     → #fbbf24  (amber-400)
+offline  → #64748b  (slate-500) */
